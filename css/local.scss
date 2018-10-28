@@ -1,0 +1,32 @@
+div.schedule-table {
+
+  display: flex;
+  flex-direction: row;
+  filter: drop-shadow(0 0 0.75rem crimson);
+
+  div.icon {
+    flex-basis: 100px;
+    text-align: right;
+    margin: 1em;
+  }
+
+  div.topic {
+    flex-basis: 60%;
+    text-align: right;
+    margin: 1em;
+  }
+
+  div.time {
+    flex-basis: 40%;
+    text-align: left;
+    margin: 1em;
+    color: #F9C100;
+
+  }
+}
+
+.light-bg {
+  h3 h3 h1 div {
+    color: #000;
+  }
+}

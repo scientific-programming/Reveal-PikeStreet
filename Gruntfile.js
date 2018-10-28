@@ -32,7 +32,7 @@ module.exports = function(grunt) {
 		sass: {
 			core: {
 				files: {
-					'css/reveal.css': 'css/reveal.scss',
+					'css/reveal.css': 'css/reveal.scss'
 				}
 			},
 			themes: {
@@ -49,6 +49,11 @@ module.exports = function(grunt) {
 					'css/theme/moon.css': 'css/theme/source/moon.scss',
 					'css/theme/solarized.css': 'css/theme/source/solarized.scss',
 					'css/theme/blood.css': 'css/theme/source/blood.scss'
+				}
+			},
+			local: {
+				files: {
+					'css/local.css': 'css/local.scss'
 				}
 			}
 		},
